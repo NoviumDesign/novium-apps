@@ -44,5 +44,7 @@ Vi använder oss av följande tekniker
 ### Prototyp
 Vi börjar alltid med en designprototyp av applikationen. Detta ligger till grunt för den slutgiltiga offert kunden får på att utveckla appen. Prototypen designar i Illustrator och får liv genom invisionapp. Genom detta tillvägagångssätt minskar vi behovet av att skriva om vår kod och sparar kunden pengar. Dessutom kan vi i ett tidigt statie ta in en testgrupp, vilket gör att vi skapar ännu bättre produkter.
 
+Be alltid kunden skriva text till prototypen. Att testa med Lorem Ipsum ger bara kostiga intryck och dåliga testresultat.
+
 ### Val av backend
 Firebase är en hostad NoSQL databas med automatiska endpoints. Vår erfarenhet säger att vi kan vara otroligt produktiva med Firebase i det fall applikationen som mest har behov av att joina 2-3 tabeller i taget. Om relationerna är komplexa är ett backend i Rails att föreda. Kom dock ihåg att Rails backend + API-dokumentation adderar tid till projektet. Överväg därför ditt val av backend noga.
